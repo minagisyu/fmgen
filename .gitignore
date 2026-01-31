@@ -35,6 +35,8 @@ bld/
 [Ll]ogs/
 [Bb]uild/
 [Bb]uild_*/
+export/
+
 
 # Build results on 'Bin' directories
 **/[Bb]in/*

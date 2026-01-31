@@ -6,7 +6,7 @@ AY8910, YM2203, YM2151, YM2608, YM2610 相当のインターフェースも実�
 
 Copyright (C) by cisc 1998, 2003.
 
-(readme-fmgem.txtより抜粋)
+(fmgen readme.txtより抜粋)
 ```
 
 ## このフォークについて
