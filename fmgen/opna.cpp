@@ -1295,7 +1295,7 @@ bool OPNA::LoadRhythmSample(const char* path)
         fsize = 4 + whdr.chunksize - sizeof(whdr);
         do
         {
-            fseek(fp, fsize, SEEK_CUR);
+            fseek(fp, (int32)fsize, SEEK_CUR);
             fread(&subchunkname, 4, 1, fp);
             fread(&fsize, 4, 1, fp);
         } while (memcmp("data", subchunkname, 4));
